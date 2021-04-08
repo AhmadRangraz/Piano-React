@@ -1,0 +1,13 @@
+.piano{
+    width: 80%;
+    height: 60%;
+    border: 5px solid ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: perspective(900px) rotateX(25deg);
+    transform-style: preserve-3d;
+    /* background: #000; */
+    box-shadow: 2px 3px 5px black;
+
+}

@@ -1,0 +1,25 @@
+.pianoKey{
+    flex-grow: 1;
+    height: 100%;
+    border: 1px solid black;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: top center;
+    transform: perspective(900px) rotateX(2deg);
+    box-shadow: 5px 15px 10px rgb(27, 27, 27);
+    transition: .2s;
+    cursor: pointer;
+    font-size: 7vw;
+    color: #224f5e;
+    text-transform: uppercase;
+}
+.pianoKey:active{
+    transform: perspective(900px) rotateX(0deg);
+    box-shadow: none;
+}
+.pushed{
+    transform: perspective(900px) rotateX(0deg);
+    box-shadow: none;
+}
