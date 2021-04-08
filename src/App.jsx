@@ -10,6 +10,7 @@ export default class App extends Component{
     return(
       <main>
         <BrowserRouter>
+        <h1>wtf</h1>
         {/* <Piano></Piano> */}
       <Route path='Piano-React/free-Mode' component={Piano}></Route>
       <Route path='Piano-React/' exact component={Home}></Route>
